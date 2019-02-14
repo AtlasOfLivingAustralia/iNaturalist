@@ -1,2 +1,2 @@
 # iNaturalist
-Asset used by ALA's iNaturalist instance
+This repo stores assets used by ALA's iNaturalist instance.
