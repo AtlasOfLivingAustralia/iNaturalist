@@ -1,0 +1,49 @@
+@import "theme/child_theme_variables";  // <--------- Add your variables into this file. Also add variables to overwrite Bootstrap variables here
+@import "assets/bootstrap4";// <--------- Loads Bootstrap3 or Bootstrap4. Change from /bootstrap3 to /bootstrap4 Watch out! just for testing in the moment!
+//@import "../src/sass/understrap/understrap/understrap";// <-------- Loads the UnderStrap defaults. Just a few classes to incorporate BS in WP
+//@import "../src/sass/understrap/theme/contact-form7";// <-------- Loads some basic styling for contact form 7 plugin
+
+//Optional files - If you don´t use the corresponding scripts/fonts comment em out
+//@import "assets/font-awesome"; // <------- Font Awesome Icon font
+//@import "assets/underscores"; // <------- Underscores media styles
+
+/*!
+ * Copyright (c) Roots
+ * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+ */
+
+// Any additional imported files //
+@import "theme/child_theme";  // <--------- Add your styles into this file
+
+//@import "theme/partials/fontawesome";
+//@import "theme/partials/modal";
+//@import "theme/partials/header";
+@import "theme/partials/footer";
+//@import "theme/partials/hero";
+//@import "theme/partials/swiper";
+//@import "theme/partials/tabbox";
+//@import "theme/partials/featurebox";
+//@import "theme/partials/blog";
+//@import "theme/partials/featured-image";
+//@import "theme/partials/sidebars";
+//@import "theme/partials/block-general";
+
+/*!
+ * Copyright (C) 2019 Atlas of Living Australia
+ * All Rights Reserved.
+ *
+ * The contents of this file are subject to the Mozilla Public
+ * License Version 2.0 (the "License"); you may not use this file
+ * except in compliance with the License. You may obtain a copy of
+ * the License at http://www.mozilla.org/MPL/
+ *
+ * Software distributed under the License is distributed on an "AS
+ * IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or
+ * implied. See the License for the specific language governing
+ * rights and limitations under the License.
+ *
+ * Created by Temi.
+ */
+//iNaturalist overrides
+@import "../theme/partials/inaturalist-home-page";

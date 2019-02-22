@@ -1,0 +1,30 @@
+{
+  "name": "inaturalist",
+  "version": "1.0.0",
+  "description": "ALA's iNaturalist stylesheet and content",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AtlasOfLivingAustralia/iNaturalist.git"
+  },
+  "keywords": [
+    "ALA",
+    "Atlas of Living Australia",
+    "iNaturalist"
+  ],
+  "author": "Temi Varghese",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/AtlasOfLivingAustralia/iNaturalist/issues"
+  },
+  "homepage": "https://github.com/AtlasOfLivingAustralia/iNaturalist#readme",
+  "dependencies": {
+    "gulp": "^4.0.0",
+    "gulp-csso": "^3.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2"
+  }
+}

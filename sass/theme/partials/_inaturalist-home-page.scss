@@ -1,0 +1,59 @@
+$homesection-value-color: #f3dcd8;
+
+
+// header - active menu highlight
+// upload button
+div#header ul#mainnav li.navtab.active {
+  border-bottom-color: $primary;
+}
+
+div#header .btn-focus.show-btn {
+  background-color: $primary;
+  border-color: $primary;
+}
+// END header
+
+// homepage
+// 'join today' button
+#call a.btn {
+  background-color: $primary;
+}
+
+// mobile section background colour
+div#mobile.homesection .imgcol {
+  background-color: $primary ;
+}
+
+// 'Nature at your fingertips' section background
+div#value>div.row{
+  background-color: $homesection-value-color;
+}
+
+// 'Contribute to science' section
+#science .backgroundrow>.bleedcol>.img {
+  width: 100%;
+  background: url(https://wordpress-staging.ala.org.au/app/uploads/2019/01/kookaburra-1920x720.jpg) 50% 20%;
+}
+// END homepage
+
+// explore/your observations page
+// stats column highlight
+div#stats-container div.statcol.active {
+  background: $primary;
+}
+
+// badge showing number of filter selected
+.bootstrap div#filter-container>button.btn-default span.badge {
+  background-color: $primary;
+}
+
+// END explore/your observations page
+
+// projects page
+// start a project, browse all projects, search 'Go' button
+.bootstrap a.btn.btn-primary.btn-inat, .bootstrap a.btn.btn-default.btn-inat, #tools-container .input-group-btn .btn-primary {
+  background-color: $primary;
+  color: $white;
+  border-color: $primary;
+}
+// END projects page
