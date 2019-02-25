@@ -51,7 +51,7 @@ div#stats-container div.statcol.active {
 
 // projects page
 // start a project, browse all projects, search 'Go' button
-.bootstrap a.btn.btn-primary.btn-inat, .bootstrap a.btn.btn-default.btn-inat, #tools-container .input-group-btn .btn-primary {
+#header.bootstrap a.btn.btn-primary.btn-inat, #header.bootstrap a.btn.btn-default.btn-inat, #tools-container .input-group-btn .btn-primary {
   background-color: $primary;
   color: $white;
   border-color: $primary;
