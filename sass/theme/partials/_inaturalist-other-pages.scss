@@ -1,0 +1,1302 @@
+#wrapper {
+  button.default, .button.default:hover, input[type='button'].default, input[type='button'].default:hover, input.button.default, input.button.default:hover, button.default, button.default:hover {
+    color: $white;
+    background-color: $primary;
+    border-color: $primary;
+  }
+
+  a.button, .button, input[type='button'].button, button.button {
+    border: 1px solid $gray-200;
+    color: $primary;
+    background-color: $white;
+  }
+
+  input.button:hover {
+    background-color: $gray-200;
+    border: 1px solid $gray-300;
+    color: $primary-dark
+  }
+
+  input[type='button']:active, input[type='submit']:active, input.button:active {
+    background-color: $gray-200;
+    border: 1px solid $gray-200;
+    color: $white
+  }
+
+  .button.default, .button.default:hover, input[type='button'].default, input[type='button'].default:hover, input.button.default, input.button.default:hover, button.default, button.default:hover {
+    color: $white;
+    background-color: $primary;
+    border-color: $primary
+  }
+
+  .button.default:hover, input[type='button'].default:hover, input.button.default:hover, button.default:hover, .ui-dialog.confirm-modal button:hover {
+    color: $white
+  }
+
+  .button.default.disabled, .button.default[disabled=disabled] {
+    background-color: $gray-500;
+    color: $gray-200;
+    border-color: $gray-500;
+    border: 0 none
+  }
+
+  .button.delete {
+    color: $gray-500
+  }
+
+  .link {
+    color: $primary;
+  }
+
+  input[type='submit'].link:hover {
+    color: $primary-dark;
+  }
+
+  .button.pale, .button.pale.disabled:hover {
+    border-color: $gray-200;
+    background-color: $gray-200;
+    color: $white;
+  }
+
+  .button.pale:hover {
+    background-color: $gray-500;
+    border-color: $gray-500;
+    color: $white
+  }
+
+  .button.glaucous, .button.glaucous.disabled:hover {
+    background-color: $gray-500;
+    border-color: $gray-400;
+    color: $white;
+  }
+
+  .button.glaucous:hover {
+    background-color: $gray-600;
+    border-color: $gray-600;
+    color: $white
+  }
+
+  .success .button.glaucous, .success .button.glaucous.disabled:hover {
+    background-color: $success;
+    border-color: $success;
+    color: $white;
+    text-align: center;
+    padding: 5px
+  }
+
+  .success .button.glaucous:hover {
+    background-color: darken($success, 7.5%);
+    border-color: darken($success, 7.5%);
+    color: $white
+  }
+
+  .button.delete.pale {
+    background-color: $gray-200;
+    border-color: $gray-200;
+    color: $white;
+  }
+
+  .button.delete.pale:hover {
+    background-color: $gray-300;
+    border-color: $gray-100;
+    color: $white
+  }
+
+  .photoSelectorPhotos .photo:hover {
+    border: 1px solid $gray-300
+  }
+
+  .photoSelectorFriends td, .photoSelectorAlbums td {
+    color: $primary;
+    border: 1px solid $white;
+  }
+
+  .photoSelectorFriends .friend:hover td, .photoSelectorAlbums .album:hover td {
+    border: 1px solid $gray-300;
+    color: $primary-dark
+  }
+
+  .photoSelector {
+    border: 1px solid $gray-200;
+  }
+
+  .soundSelectorPhotos .sound:hover {
+    border: 1px solid $gray-300
+  }
+
+  .soundSelector {
+    border: 1px solid $gray-200;
+  }
+
+  .status.loading {
+    color: $gray-600
+  }
+
+  .status.error, .error {
+    color: $pink
+  }
+
+  .status.error a, .error a {
+    color: $primary
+  }
+
+  .status.success {
+    color: $green
+  }
+
+  #prevlink.edge, #nextlink.edge {
+    color: $gray-500;
+    background-color: $gray-100
+  }
+
+  #prevlink .arrow, #nextlink .arrow {
+    color: $white;
+    background-color: $gray-300
+  }
+
+  #prevlink:hover, #nextlink:hover {
+    background-color: $gray-200
+  }
+
+  #prevlink:hover .arrow, #nextlink:hover .arrow {
+    background-color: $gray-400
+  }
+
+  #prevlink .title, #nextlink .title {
+    color: $gray-100;
+    background-color: $gray-400;
+  }
+
+  #modal_image_box {
+    background-color: $white;
+    border: 2px solid $gray-400;
+  }
+
+  .observations.mini .project_observation {
+    border-bottom: 1px solid $gray-200;
+  }
+
+  .gm-style label[disabled] {
+    color: $gray-600
+  }
+
+  .gm-style label[disabled] {
+    color: $gray-600
+  }
+
+  .gmapv3control ul.inat-overlay li {
+    border-top: 1px solid $gray-300;
+  }
+
+  .gmapv3control ul.inat-overlay li.for_taxon {
+    border-top: 1px solid $gray-300;
+  }
+
+  .gmapv3legend {
+    border: 1px solid $gray-300;
+    background: $white;
+    box-shadow: $gray-500 0 1px 4px -1px;
+  }
+
+  .gmapv3legend .ul-container ul.inat-overlay.right {
+    border-left: 1px solid $gray-300
+  }
+
+  .gmapv3legend ul.inat-overlay li.header {
+    border-top: 1px solid $gray-300;
+  }
+
+  .gmapv3legend ul.inat-overlay .icon.color-box.unknown {
+    border: 2px dotted $black
+  }
+
+  body {
+    color: $gray-800
+  }
+
+  a {
+    color: $primary;
+  }
+
+  a:hover {
+    color: $primary-dark
+  }
+
+  textarea.text, input.text, input.file, .select {
+    border: 1px solid $gray-400;
+    background-color: #f6f6f6;
+  }
+
+  textarea:focus, input.text:focus, input.file:focus, input[type="text"]:focus, input[type="file"]:focus {
+    background-color: $white;
+    border-color: $gray-400
+  }
+
+  .required {
+    color: $pink
+  }
+
+  .fieldWithErrors {
+    background-color: $pink;
+  }
+
+  #pageheader a .parenticon {
+    border: 2px solid $white;
+  }
+
+  #pageheader .projecticon:hover, #pageheader .usericon:hover {
+    border-color: $gray-300
+  }
+
+  #subnav li a.active {
+    color: $gray-800
+  }
+
+  #breadcrumbs {
+    color: $gray-500;
+  }
+
+  #breadcrumbs ul li:after {
+    color: $gray-500
+  }
+
+  .auto_complete {
+    background-color: $white
+  }
+
+  .auto_complete ul {
+    background-color: $white;
+    border-left: 1px solid $gray-700;
+    border-right: 1px inset $gray-600;
+    border-bottom: 1px inset $gray-700;
+    border-top: 1px dashed $gray-500
+  }
+
+  span.button {
+    color: $blue;
+  }
+
+  #flash, .flash {
+    background-color: lighten($yellow, 30%);
+  }
+
+  #flash.notice {
+    background-color: lighten($yellow, 30%)
+  }
+
+  .notice a {
+    color: $primary;
+  }
+
+  .notice a:hover {
+    color: $primary-dark
+  }
+
+  .description {
+    color: $gray-600
+  }
+
+  .description em {
+    color: $gray-800
+  }
+
+  .meta {
+    color: $gray-600
+  }
+
+  .status .success {
+    color: $green;
+  }
+
+  .errorExplanation {
+    background-color: lighten($yellow, 30%);
+    border-right: 1px solid $gray-200;
+    border-bottom: 1px solid $gray-200;
+  }
+
+  .errorExplanation li, .formError {
+    color: $pink
+  }
+
+  .taxon .othernames {
+    color: $gray-600;
+  }
+
+  .column-separator {
+    border-top: 1px solid $gray-200;
+  }
+
+  .column-separator img {
+    background-color: $white
+  }
+
+  .box {
+    background-color: lighten($yellow, 50%);
+  }
+
+  .quiet.box {
+    background-color: $gray-200
+  }
+
+  .notice.box {
+    background-color: $yellow
+  }
+
+  .identification.box .boxheader {
+    background-color: darken($yellow, 10%);
+  }
+
+  .identification.quiet.box .boxheader {
+    background-color: $gray-200
+  }
+
+  .pagination a, .pagination span, .pagination em {
+    border: 1px solid $gray-400;
+  }
+
+  .pagination .disabled {
+    color: $gray-600;
+  }
+
+  .pagination .current {
+    background-color: lighten($yellow, 30%);
+    border: 1px solid lighten($yellow, 40%)
+  }
+
+  .readmore {
+    color: $primary-dark
+  }
+
+  #footer {
+    background-color: $gray-200;
+    color: $gray-500;
+  }
+
+  #footer p a {
+    color: $gray-800
+  }
+
+  #footer .social-media-link {
+    background-color: $gray-400;
+  }
+
+  #footer .social-media-link:before {
+    color: $white;
+  }
+
+  #footer .social-media-link.twitter {
+    background-color: #4099ff
+  }
+
+  #footer .social-media-link.facebook {
+    background-color: #3b5998
+  }
+
+  #inatnotice {
+    color: $gray-500;
+    background-color: $gray-700;
+  }
+
+  #inatnotice .links a {
+    color: $white
+  }
+
+  #inatnotice .btn {
+    background-color: $gray-700;
+    color: $white;
+    border-color: $gray-500;
+  }
+
+  #inatnotice .btn i {
+    color: $primary;
+  }
+
+  .compactfield {
+    border: 1px solid $gray-400
+  }
+
+  .toggle_menu .togglelink.open {
+    background-color: $white;
+    color: $primary;
+    border-color: $gray-400;
+    border-bottom: 1px solid $white;
+  }
+
+  .toggle_menu .menu {
+    background-color: $white;
+    border: 1px solid $gray-400;
+    -webkit-box-shadow: 0 1px 2px $gray-600;
+    -moz-box-shadow: 0 1px 2px $gray-600;
+    box-shadow: 0 1px 2px $gray-600;
+  }
+
+  .modalbox {
+    background-color: $white;
+    border: 2px solid $gray-400;
+  }
+
+  .modalbox .close.corner {
+    background-color: $gray-400;
+    color: $gray-800;
+  }
+
+  .modalbox .close:hover {
+    color: $white;
+  }
+
+  .jqmOverlay {
+    background-color: $black;
+  }
+
+  .count, .count a {
+    color: $primary
+  }
+
+  .good {
+    color: $primary
+  }
+
+  .bad {
+    color: $pink
+  }
+
+  .modal_link, .buttonrow .modal_link {
+    border-top: 1px solid $white;
+    border-right: 1px solid $gray-400;
+    border-bottom: 1px solid $gray-400;
+    border-left: 1px solid $white;
+    background-color: $white;
+    color: $gray-600;
+  }
+
+  .modal_link:active, .selected.modal_link, .buttonrow .modal_link:active, .buttonrow .selected.modal_link {
+    border-top: 1px solid $gray-400;
+    border-right: 1px solid $gray-200;
+    border-bottom: 1px solid $gray-200;
+    border-left: 1px solid $gray-400;
+    background-color: $gray-200;
+    color: $primary
+  }
+
+  .simpleTaxonSelector .taxon.Protozoa {
+    color: #691776;
+  }
+
+  .simpleTaxonSelector .taxon.Plantae {
+    color: #73ac13;
+  }
+
+  .simpleTaxonSelector .taxon.Fungi {
+    color: $pink;
+  }
+
+  .simpleTaxonSelector .taxon.Animalia {
+    color: #1e90ff;
+  }
+
+  .simpleTaxonSelector .taxon.Mollusca {
+    color: #ff4500;
+  }
+
+  .simpleTaxonSelector .taxon.Arachnida {
+    color: #ff4500;
+  }
+
+  .simpleTaxonSelector .taxon.Insecta {
+    color: #ff4500;
+  }
+
+  .simpleTaxonSelector .taxon.Amphibia {
+    color: #1e90ff;
+  }
+
+  .simpleTaxonSelector .taxon.Reptilia {
+    color: #1e90ff;
+  }
+
+  .simpleTaxonSelector .taxon.Aves {
+    color: #1e90ff;
+  }
+
+  .simpleTaxonSelector .taxon.Mammalia {
+    color: #1e90ff;
+  }
+
+  .simpleTaxonSelector .taxon.Actinopterygii {
+    color: #1e90ff;
+  }
+
+  .simpleTaxonSelector .taxon.Chromista {
+    color: #930;
+  }
+
+  .taxon_links .taxon.Unknown {
+    color: $gray-500;
+  }
+
+  .taxon_links .taxon.Protozoa {
+    color: #691776;
+  }
+
+  .taxon_links .taxon.Plantae {
+    color: #73ac13;
+  }
+
+  .taxon_links .taxon.Fungi {
+    color: $pink;
+  }
+
+  .taxon_links .taxon.Animalia {
+    color: #1e90ff;
+  }
+
+  .taxon_links .taxon.Mollusca {
+    color: #ff4500;
+  }
+
+  .taxon_links .taxon.Arachnida {
+    color: #ff4500;
+  }
+
+  .taxon_links .taxon.Insecta {
+    color: #ff4500;
+  }
+
+  .taxon_links .taxon.Amphibia {
+    color: #1e90ff;
+  }
+
+  .taxon_links .taxon.Reptilia {
+    color: #1e90ff;
+  }
+
+  .taxon_links .taxon.Aves {
+    color: #1e90ff;
+  }
+
+  .taxon_links .taxon.Mammalia {
+    color: #1e90ff;
+  }
+
+  .taxon_links .taxon.Actinopterygii {
+    color: #1e90ff;
+  }
+
+  .taxon_links .taxon.Chromista {
+    color: #930;
+  }
+
+  .taxon.Unknown a, .taxon.Unknown .display_name {
+    color: $gray-500
+  }
+
+  .taxon.Protozoa a, .taxon.Protozoa .display_name {
+    color: #691776
+  }
+
+  .taxon.Plantae a, .taxon.Plantae .display_name {
+    color: #73ac13
+  }
+
+  .taxon.Fungi a, .taxon.Fungi .display_name {
+    color: $pink
+  }
+
+  .taxon.Animalia a, .taxon.Animalia .display_name {
+    color: #1e90ff
+  }
+
+  .taxon.Mollusca a, .taxon.Mollusca .display_name {
+    color: #ff4500
+  }
+
+  .taxon.Arachnida a, .taxon.Arachnida .display_name {
+    color: #ff4500
+  }
+
+  .taxon.Insecta a, .taxon.Insecta .display_name {
+    color: #ff4500
+  }
+
+  .taxon.Amphibia a, .taxon.Amphibia .display_name {
+    color: #1e90ff
+  }
+
+  .taxon.Reptilia a, .taxon.Reptilia .display_name {
+    color: #1e90ff
+  }
+
+  .taxon.Aves a, .taxon.Aves .display_name {
+    color: #1e90ff
+  }
+
+  .taxon.Mammalia a, .taxon.Mammalia .display_name {
+    color: #1e90ff
+  }
+
+  .taxon.Actinopterygii a, .taxon.Actinopterygii .display_name {
+    color: #1e90ff
+  }
+
+  .taxon.Chromista a, .taxon.Chromista .display_name {
+    color: #930
+  }
+
+  .taxon.has-com-name .secondary-name {
+    color: $gray-500;
+  }
+
+  .taxon .altname {
+    color: $gray-500
+  }
+
+  .fadednowrap:before {
+    background-color: $white;
+    background: -webkit-gradient(linear, 0 50%, 100% 50%, from(rgba(255, 255, 255, 0)), to($white));
+    background: -moz-linear-gradient(left, rgba(255, 255, 255, 0), $white)
+  }
+
+  .fadednowrap_eee:before {
+    background-color: $gray-200;
+    background: -webkit-gradient(linear, 0 50%, 100% 50%, from(rgba(238, 238, 238, 0)), to($gray-200));
+    background: -moz-linear-gradient(left, rgba(238, 238, 238, 0), $gray-200)
+  }
+
+  .fadednowrap_ddd:before {
+    background-color: $gray-300;
+    background: -webkit-gradient(linear, 0 50%, 100% 50%, from(rgba(221, 221, 221, 0)), to($gray-300));
+    background: -moz-linear-gradient(left, rgba(221, 221, 221, 0), $gray-300)
+  }
+
+  .gmnoprint .gels {
+    border: 1px solid $gray-200
+  }
+
+  .gm-fullscreen-control {
+    box-shadow: $gray-500 0 1px 4px -1px;
+  }
+
+  .inplaceedit:hover {
+    background-color: lighten($yellow, 50%)
+  }
+
+  .photo_view .nophoto {
+    border: 1px dashed $gray-200;
+  }
+
+  .helptip.helptiptext {
+    color: $gray-600;
+  }
+
+  .helptip.helptiptext:hover {
+    color: $primary
+  }
+
+  .gmapv3control {
+    color: black;
+    background-color: $white;
+    border: 1px solid $gray-600;
+    -webkit-box-shadow: 0 2px 4px $gray-500;
+    -moz-box-shadow: 0 2px 4px $gray-500;
+    box-shadow: 0 2px 4px $gray-500;
+  }
+
+  .gmapv3control:hover {
+    background: -moz-linear-gradient(center top, $white, $gray-200) repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from($white), to($gray-200)) repeat scroll 0 0 transparent
+  }
+
+  .inlineblock.conservation_status.least_concern .csstatus {
+    color: #73ac13
+  }
+
+  .inlineblock.conservation_status.near_threatened .csstatus, .inlineblock.conservation_status.vulnerable .csstatus {
+    color: #817134
+  }
+
+  .inlineblock.conservation_status.endangered .csstatus, .inlineblock.conservation_status.critically_endangered .csstatus {
+    color: #d12f19
+  }
+
+  .inlineblock.conservation_status.extinct_in_the_wild .csstatus, .inlineblock.conservation_status.extinct .csstatus {
+    color: black
+  }
+
+  .blob.conservation_status.least_concern {
+    background: $green;
+    color: $white
+  }
+
+  .box.conservation_status.least_concern {
+    background: $green;
+    color: $success
+  }
+
+  .blob.conservation_status.near_threatened, .blob.conservation_status.vulnerable, .box.conservation_status.near_threatened, .box.conservation_status.vulnerable {
+    background-color: #817134;
+    color: #fff6bf
+  }
+
+  .blob.conservation_status.near_threatened a, .blob.conservation_status.vulnerable a, .blob.conservation_status.critically_endangered a, .blob.conservation_status.endangered a, .box.conservation_status.near_threatened a, .box.conservation_status.vulnerable a, .box.conservation_status.endangered a, .box.conservation_status.critically_endangered a, .box.introduced a, .box.endemic a {
+    color: #ccdfff
+  }
+
+  .blob.conservation_status.endangered, .blob.conservation_status.critically_endangered, .box.conservation_status.endangered, .box.conservation_status.critically_endangered {
+    background-color: #d12f19;
+    color: #fbe3e4
+  }
+
+  .blob.conservation_status.extinct_in_the_wild, .blob.conservation_status.extinct, .box.conservation_status.extinct_in_the_wild, .box.conservation_status.extinct, .crossout.extinct {
+    background-color: black;
+    color: $white
+  }
+
+  .loadingclick {
+    color: $gray-600
+  }
+
+  .date a:hover {
+    border-bottom: 1px dotted $primary
+  }
+
+  .monthgraph .bar {
+    background-color: $primary;
+  }
+
+  body .research_grade_notice, body .research_notice, body .comprehensive_notice, .infowindow .observation .research_grade_notice, .infowindow .observation .research_notice, .infowindow .observation .comprehensive_notice {
+    background-color: #dceaa3;
+    color: $success
+  }
+
+  body a.research_grade_notice:hover, body a.research_notice:hover, .infowindow .observation a.research_grade_notice:hover, .infowindow .observation a.research_notice:hover {
+    color: #326412
+  }
+
+  body .needs_id_notice, .infowindow .observation .needs_id_notice {
+    background-color: $yellow;
+    color: darken($yellow, 90%)
+  }
+
+  body a.needs_id_notice:hover, .infowindow .observation a.needs_id_notice:hover {
+    color: #584925
+  }
+
+  .shades .underlay {
+    background-color: $black;
+  }
+
+  .shades .status.loading {
+    background-color: $white;
+    box-shadow: 0 0 20px $gray-500;
+    -webkit-box-shadow: 0 0 20px $gray-500;
+    -moz-box-shadow: 0 0 20px $gray-500
+  }
+
+  .shades .status.loading.bigloading {
+    background-color: $white;
+    box-shadow: 0 0 30px $gray-500;
+    -webkit-box-shadow: 0 0 30px $gray-500;
+    -moz-box-shadow: 0 0 30px $gray-500
+  }
+
+  .floating {
+    box-shadow: 0 0 20px $gray-500;
+    -webkit-box-shadow: 0 0 20px $gray-500;
+    -moz-box-shadow: 0 0 20px $gray-500
+  }
+
+  .floating.dark {
+    box-shadow: 0 0 20px $gray-800;
+    -webkit-box-shadow: 0 0 20px $gray-800;
+    -moz-box-shadow: 0 0 20px $gray-800
+  }
+
+  .ui-chooser-input, .ui-chooser-choice {
+    border-color: $gray-400;
+  }
+
+  .ui-widget-content.ui-chooser-choice {
+    background: $gray-200
+  }
+
+  .ui-chooser-button {
+    border-color: $gray-400;
+  }
+
+  .observedgraph .monthgraph .bar {
+    background-color: $gray-500
+  }
+
+  .observedgraph .monthgraph .bar .count {
+    color: $gray-500
+  }
+
+  .ui-tooltip-error .ui-tooltip-titlebar, .ui-tooltip-error .ui-tooltip-content {
+    border-color: $pink;
+    color: $white
+  }
+
+  .ui-tooltip-error .ui-tooltip-content {
+    background-color: $pink
+  }
+
+  .ui-tooltip-error .ui-tooltip-titlebar {
+    background-color: $pink
+  }
+
+  .ui-tooltip-notice .ui-tooltip-titlebar, .ui-tooltip-notice .ui-tooltip-content {
+    border-color: $yellow;
+    color: darken($yellow, 90%)
+  }
+
+  .ui-tooltip-notice .ui-tooltip-content {
+    background-color: $yellow
+  }
+
+  .ui-tooltip-notice .ui-tooltip-titlebar {
+    background-color: $yellow
+  }
+
+  .ui-tooltip-success .ui-tooltip-titlebar, .ui-tooltip-success .ui-tooltip-content {
+    border-color: $green;
+    color: lighten($green, 50%);
+  }
+
+  .ui-tooltip-success .ui-tooltip-content {
+    background-color: $green
+  }
+
+  .ui-tooltip-success .ui-tooltip-titlebar {
+    background-color: $green
+  }
+
+  .ui-tooltip-least_concern .ui-tooltip-titlebar, .ui-tooltip-least_concern .ui-tooltip-content {
+    border-color: $green;
+    background: $green;
+    color: $white
+  }
+
+  .ui-tooltip-near_threatened .ui-tooltip-titlebar, .ui-tooltip-near_threatened .ui-tooltip-content, .ui-tooltip-vulnerable .ui-tooltip-titlebar, .ui-tooltip-vulnerable .ui-tooltip-content {
+    border-color: #817134;
+    color: #fff6bf
+  }
+
+  .ui-tooltip-near_threatened .ui-tooltip-content, .ui-tooltip-vulnerable .ui-tooltip-content {
+    background-color: #817134
+  }
+
+  .ui-tooltip-near_threatened .ui-tooltip-titlebar, .ui-tooltip-vulnerable .ui-tooltip-titlebar {
+    background-color: #817134
+  }
+
+  .ui-tooltip-endangered .ui-tooltip-titlebar, .ui-tooltip-endangered .ui-tooltip-content, .ui-tooltip-critically_endangered .ui-tooltip-titlebar, .ui-tooltip-critically_endangered .ui-tooltip-content {
+    border-color: #d12f19;
+    color: #fbe3e4
+  }
+
+  .ui-tooltip-endangered .ui-tooltip-content, .ui-tooltip-critically_endangered .ui-tooltip-content {
+    background-color: #d12f19
+  }
+
+  .ui-tooltip-endangered .ui-tooltip-titlebar, .ui-tooltip-critically_endangered .ui-tooltip-titlebar {
+    background-color: #d12f19
+  }
+
+  .ui-tooltip-black .ui-tooltip-titlebar, .ui-tooltip-black .ui-tooltip-content, .ui-tooltip-extinct .ui-tooltip-titlebar, .ui-tooltip-extinct .ui-tooltip-content, .ui-tooltip-extinct_in_the_wild .ui-tooltip-titlebar, .ui-tooltip-extinct_in_the_wild .ui-tooltip-content {
+    border-color: $black;
+    color: $white
+  }
+
+  .ui-tooltip-black .ui-tooltip-content, .ui-tooltip-extinct .ui-tooltip-content, .ui-tooltip-extinct_in_the_wild .ui-tooltip-content {
+    background-color: $black
+  }
+
+  .ui-tooltip-black .ui-tooltip-titlebar, .ui-tooltip-extinct .ui-tooltip-titlebar, .ui-tooltip-extinct_in_the_wild .ui-tooltip-titlebar {
+    background-color: $black
+  }
+
+  .alert, .alert:hover {
+    background-color: $danger;
+    color: $white
+  }
+
+
+  .notmonth {
+    color: $gray-400
+  }
+
+  .calendar tbody td, .calendar th {
+    color: $gray-400
+  }
+
+  .calendar tbody td.notmonth {
+    color: $gray-200
+  }
+
+  .ui-tooltip-required .ui-tooltip-content, .ui-tooltip-required .ui-tooltip-titlebar {
+    color: $white;
+    background-color: $pink
+  }
+
+  .leftmenu {
+    background-color: $gray-200
+  }
+
+  .leftmenu li a.active {
+    background-color: $white
+  }
+
+  .leftmenu li a:hover {
+    background-color: $gray-100
+  }
+
+  .colorfield.black {
+    color: lightgrey;
+    background-color: $black
+  }
+
+  .colorfield.white {
+    color: grey;
+    border: 1px solid $gray-200;
+    background-color: $white
+  }
+
+  .colorfield.red {
+    color: $pink;
+    background-color: red
+  }
+
+  .colorfield.green {
+    color: lighten($green, 50%);
+    background-color: $green
+  }
+
+  .colorfield.blue {
+    color: lighten($blue, 50%);
+    background-color: $blue
+  }
+
+  .colorfield.purple {
+    color: lighten($purple, 50%);;
+    background-color: $purple
+  }
+
+  .colorfield.yellow {
+    color: darken($yellow, 50%);
+    background-color: $yellow
+  }
+
+  .colorfield.grey {
+    color: $gray-200;
+    background-color: $gray-500
+  }
+
+  .colorfield.orange {
+    color: darken($orange, 50%);
+    background-color: $orange
+  }
+
+  .colorfield.brown {
+    color: peru;
+    background-color: saddlebrown
+  }
+
+  .colorfield.pink {
+    color: $pink;
+    background-color: lighten($pink, 50%)
+  }
+
+  .blob, .listed_taxon .blob {
+    color: $white;
+  }
+
+  .identification:hover .upperright .blob, .listed_taxon:hover .upperright .blob {
+    box-shadow: $gray-800 0 1px 2px
+  }
+
+  .endemic, .native {
+    background-color: $green;
+    color: lighten($green, 50%)
+  }
+
+  .introduced {
+    background-color: $pink;
+    color: lighten($pink, 50%)
+  }
+
+  .ministats.monthstats:hover {
+    background-color: $gray-900;
+  }
+
+  .dna:hover nt.a {
+    color: $pink
+  }
+
+  .dna:hover nt.t {
+    color: #e29400
+  }
+
+  .dna:hover nt.c {
+    color: #1e90ff
+  }
+
+  .dna:hover nt.g {
+    color: #73ac13
+  }
+
+  .textcomplete-dropdown {
+    background-color: $white;
+    border: 1px solid $gray-400;
+    border: 1px solid $gray-300;
+    -webkit-box-shadow: 0 6px 12px $gray-400;
+    box-shadow: 0 6px 12px $gray-400
+  }
+
+  .textcomplete-dropdown a {
+    color: $gray-800
+  }
+
+  .textcomplete-dropdown > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+    color: $white;
+    background-color: $primary;
+  }
+
+  .textcomplete-dropdown > li > a {
+    color: $gray-800;
+  }
+
+  user-icon .userimage {
+    background-color: $gray-500;
+    color: $white;
+  }
+
+  #inat-universal-autocomplete .ui-autocomplete {
+    border-color: $gray-300;
+    box-shadow: 0 5px 15px $gray-500
+  }
+
+  #inat-universal-autocomplete .ui-autocomplete a {
+    color: $primary
+  }
+
+  #inat-universal-autocomplete .ui-autocomplete .ac {
+    background: $white
+  }
+
+  #inat-universal-autocomplete .ui-autocomplete .ac.ui-state-active {
+    background: $gray-200
+  }
+
+  #inat-universal-autocomplete .ui-autocomplete .ac .ac-thumb img {
+    border: 1px solid $gray-300;
+  }
+
+  #inat-universal-autocomplete .ui-autocomplete .ac .ac-label .secondary-name {
+    color: $gray-500
+  }
+
+  #inat-universal-autocomplete .ui-autocomplete .ac .ac-view.view-observations span {
+    border-right: 1px solid $gray-300;
+  }
+
+  #inat-universal-autocomplete .ui-autocomplete .ac.ac-result-Taxon .no-photo {
+    border: 1px solid $gray-300;
+    background-color: $gray-500;
+  }
+
+  #inat-universal-autocomplete .ui-autocomplete .ac.ac-result-Taxon .no-photo i {
+    color: $white
+  }
+
+  #inat-universal-autocomplete .ui-autocomplete .ac.ac-result-Place i {
+    color: $primary
+  }
+
+  #inat-universal-autocomplete .ui-autocomplete .ac.ac-result-Project .no-photo {
+    border: 1px solid $gray-300;
+    background-color: $gray-500;
+  }
+
+  #inat-universal-autocomplete .ui-autocomplete .ac.ac-result-Project .no-photo i {
+    color: $white;
+  }
+
+  #inat-universal-autocomplete .ui-autocomplete .ac.ac-result-Project .no-photo .inner {
+    border: 1px solid $white;
+  }
+
+  #inat-universal-autocomplete .ui-autocomplete .ac div.usericon {
+    border: 1px solid $gray-300;
+    background-color: $gray-500;
+  }
+
+  #inat-universal-autocomplete .ui-autocomplete .ac div.usericon i {
+    color: $white
+  }
+
+  #inat-universal-autocomplete .ui-autocomplete .ui-state-focus .ac {
+    background-color: $gray-200
+  }
+
+
+  .observation .description.attribute {
+    color: $gray-800
+  }
+
+  .observation .actions ul li:after {
+    color: $gray-600
+  }
+
+  .observations.table .attribute.curator_ident h4 {
+    color: $gray-600
+  }
+
+  .observations.table .observation:hover {
+    background-color: $gray-100
+  }
+
+  .observations.table .observation .attribute, .observations.table .header {
+    border-bottom: 1px solid $gray-200;
+  }
+
+  .observations.table .header {
+    border-color: $gray-400;
+    color: $gray-600;
+  }
+
+  .observations.table .header a {
+    color: $gray-600;
+  }
+
+  .observations.table .header.order_by a:after, .observations.table .header.order_by.desc a:after {
+    color: $gray-500
+  }
+
+  .observations.table .photos .nophoto {
+    border: 1px dashed $gray-200;
+  }
+
+  .observations.table .photos .sound-icon.with-photo {
+    color: $gray-200;
+  }
+
+  .observations.mini .photos .sound-icon.with-photo {
+    color: $gray-200
+  }
+
+  .observations.medium.grid .photos .sound-icon.with-photo i {
+    color: $gray-200;
+  }
+
+  .observations.table .observed_on, .observations.table .created_at {
+    color: $gray-600;
+  }
+
+  .observations.mini .observation {
+    border-bottom: 1px solid $gray-200;
+  }
+
+  .observations.mini .photos .photolist .photo.nophoto {
+    border: 1px dashed $gray-200;
+  }
+
+  .observations.mini .user .label, .observations.mini .observed_on .label, .observations.mini .created_at .label, .observations.mini .place .label, .observations.mini .tags .label, .observations.mini .curator_ident .label {
+    color: $gray-600;
+  }
+
+  .observations.grid .observation {
+    background-color: $gray-200;
+  }
+
+  .observations.grid .species_guess a, .observations.grid .research_grade_notice, .observations.grid .needs_id_notice, .observations.grid .actions .counts {
+    text-shadow: 1px 1px 1px $black
+  }
+
+  .observations.grid .research_grade_notice, .observations.grid .needs_id_notice, .observations.grid .observation .actions .counts, .observations.grid .observation .actions .counts .count, .observations.grid .observation .actions .counts a {
+    color: $white
+  }
+
+  .observation.new input[type='text'], .observation.new input.text, .observation.new select, .observation.new textarea {
+    background-color: $white;
+  }
+
+  .observation.new .place .description em {
+    color: $pink
+  }
+
+  .observation.new .status.loading {
+    color: $gray-600;
+  }
+
+  .observation.new .status.success {
+    color: $green;
+  }
+
+  .observation.new .status.unmatched {
+    color: $gray-600;
+  }
+
+  .observationform .latlonfields.status label, .observationform .latlonfields.status input {
+    color: $gray-600;
+  }
+
+  .observationform .time_zone {
+    color: $gray-600
+  }
+
+
+  #batchformcol h3 a {
+    color: $black;
+  }
+
+  #batchformcol h3 a:hover {
+    color: $primary-dark
+  }
+
+  .observationcontrols a, .observationcontrols a:hover {
+    color: #222
+  }
+
+  .observationcontrols a.disabled {
+    color: $gray-600
+  }
+
+  .placeholder {
+    color: $gray-600;
+  }
+
+  .linky {
+    color: $primary
+  }
+
+  .ui-autocomplete .category {
+    background: $white;
+    color: $gray-700;
+    background: $gray-200
+  }
+
+  .ui-autocomplete .ac-result .vision .ac-label .subtitle.vision {
+    color: $primary
+  }
+
+  .ui-autocomplete .ac-label .subtitle {
+    color: $gray-600;
+  }
+
+  .ui-autocomplete li.ac-result + li.ac-result {
+    border-top: 1px solid $gray-300
+  }
+
+  .ac-result.place .type {
+    color: $gray-600
+  }
+
+
+  input.filter-changed + .searchclear.glyphicon {
+    color: $gray-500;
+  }
+
+  .searchclear.glyphicon:hover, input.filter-changed + .searchclear.glyphicon:hover {
+    color: $gray-700;
+  }
+}

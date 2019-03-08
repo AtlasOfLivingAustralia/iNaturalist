@@ -1,19 +1,28 @@
 $homesection-value-color: #f3dcd8;
 
 
-// header - active menu highlight
-// upload button
-div#header ul#mainnav li.navtab.active {
-  border-bottom-color: $primary;
-}
-
-div#header .btn-focus.show-btn {
-  background-color: $primary;
-  border-color: $primary;
-}
-// END header
+//// header - active menu highlight
+//// upload button
+//div#header ul#mainnav li.navtab.active {
+//  border-bottom-color: $primary;
+//}
+//
+//div#header .btn-focus.show-btn {
+//  background-color: $primary;
+//  border-color: $primary;
+//}
+//// END header
 
 // homepage
+// line connecting steps 1,2,3
+#how .row label {
+  background-color: $primary;
+}
+
+#how .txtrow.row:before {
+  background-color: $primary-dark;
+}
+
 // 'join today' button
 #call a.btn {
   background-color: $primary;
@@ -21,39 +30,55 @@ div#header .btn-focus.show-btn {
 
 // mobile section background colour
 div#mobile.homesection .imgcol {
-  background-color: $primary ;
+  background-color: $primary;
 }
 
 // 'Nature at your fingertips' section background
-div#value>div.row{
+div#value > div.row {
   background-color: $homesection-value-color;
 }
 
 // 'Contribute to science' section
-#science .backgroundrow>.bleedcol>.img {
+#science .backgroundrow > .bleedcol > .img {
   width: 100%;
   background: url(https://wordpress-staging.ala.org.au/app/uploads/2019/01/kookaburra-1920x720.jpg) 50% 20%;
 }
+
+#wrapper.container {
+  width: 100%;
+}
+
 // END homepage
 
-// explore/your observations page
-// stats column highlight
-div#stats-container div.statcol.active {
-  background: $primary;
-}
+//// explore/your observations page
+//// stats column highlight
+//div#stats-container div.statcol.active {
+//  background: $primary;
+//}
+//
+//// badge showing number of filter selected
+//.bootstrap div#filter-container > button.btn-default span.badge {
+//  background-color: $primary;
+//}
+//
+//// END explore/your observations page
+//
+//// projects page
+//// start a project, browse all projects, search 'Go' button
+//#header.bootstrap a.btn.btn-primary.btn-inat, #header.bootstrap a.btn.btn-default.btn-inat, #tools-container .input-group-btn .btn-primary {
+//  background-color: $primary;
+//  color: $white;
+//  border-color: $primary;
+//}
+//
+//// END projects page
 
-// badge showing number of filter selected
-.bootstrap div#filter-container>button.btn-default span.badge {
-  background-color: $primary;
-}
-
-// END explore/your observations page
-
-// projects page
-// start a project, browse all projects, search 'Go' button
-#header.bootstrap a.btn.btn-primary.btn-inat, #header.bootstrap a.btn.btn-default.btn-inat, #tools-container .input-group-btn .btn-primary {
-  background-color: $primary;
-  color: $white;
-  border-color: $primary;
-}
-// END projects page
+//// add your observation
+//
+//.btn-primary {
+//  color: #fff;
+//  background-color: #337ab7;
+//  border-color: #2e6da4;
+//}
+//
+//// add your observation
